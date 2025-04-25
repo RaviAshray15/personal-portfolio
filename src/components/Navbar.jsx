@@ -23,7 +23,7 @@ function Navbar() {
     <>
       <div className={`navbar ${isShrunk ? 'navbar-shrink' : ''}`} id="navbar">
         <div className="navbar-a">
-          <a className='logo' onClick={() => window.scrollTo(0, 0)}>Ravi Ashray.</a>
+          <a className='logo' href='#' onClick={() => window.scrollTo(0, 0)}>Ravi Ashray.</a>
           <a href="#about">About Me</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
@@ -33,7 +33,7 @@ function Navbar() {
 
       <section className="home" id="home">
         <h1>Transforming Ideas into <br /><span id="reality">Reality.</span></h1>
-        <a href={resumePDF} className="resume-button" target="_blank" >
+        <a href={resumePDF} className="resume-button" target="_blank" rel="noreferrer" >
           My Resume
         </a>
 
@@ -127,10 +127,10 @@ function Navbar() {
         <h2 className="section-heading">Contact Me</h2>
         <p>Let's build something awesome together.</p>
         <div className="icons">
-          <a href="https://github.com/RaviAshray15" target='_blank'><FaGithub /></a>
-          <a href="https://twitter.com/Raviashray" target='_blank'><FaTwitter /></a>
-          <a href="https://www.facebook.com/ashray.namuduru" target='_blank'><FaFacebook /></a>
-          <a href="mailto:raviashray15@gmail.com" target='_blank'><FaEnvelope /></a>
+          <a href="https://github.com/RaviAshray15" target='_blank' rel="noreferrer"><FaGithub /></a>
+          <a href="https://twitter.com/Raviashray" target='_blank' rel="noreferrer"><FaTwitter /></a>
+          <a href="https://www.facebook.com/ashray.namuduru" target='_blank' rel="noreferrer"><FaFacebook /></a>
+          <a href="mailto:raviashray15@gmail.com" target='_blank' ><FaEnvelope /></a>
         </div>
       </section>
 
