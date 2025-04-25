@@ -99,7 +99,7 @@ function Navbar() {
           <div className="project-card">
             <h3>Sentiment Analysis</h3>
             <p>Built a real-time sentiment analysis app using <span>Streamlit</span>  and <span>Python</span> for text-based emotion detection..</p>
-            <div className="project-links">
+            <div className="project-links" id='pl-1'>
               <a href="https://sentiment-analysis123.streamlit.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
               <a href="https://github.com/RaviAshray15/sentiment-analysis" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
