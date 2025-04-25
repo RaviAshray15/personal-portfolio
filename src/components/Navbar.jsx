@@ -46,7 +46,6 @@ function Navbar() {
             <p>Hey, there! I am <span>Ravi Ashray</span>...</p>
             <p>An undergraduate student from <span>VIT AP University</span>.</p>
             <p>Tech enthusiast with a passion for development.</p>
-            <p>I'm very flexible with time zone communications.</p>
           </div>
           <img src={download} alt="Ravi Ashray" />
         </div>
