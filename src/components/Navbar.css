@@ -50,7 +50,7 @@ span::selection {
 /* Navbar */
 .navbar {
     position: sticky;
-    top: 0;
+    top: 10px;
     z-index: 1000;
     display: flex;
     justify-content: center;
