@@ -137,6 +137,7 @@ span::selection {
 
 .home a:hover {
     background-color: #363636;
+    color: var(--accent-color);
 }
 
 /* Section Base */
@@ -434,6 +435,14 @@ footer span {
 }
 
 /* Responsive Design */
+
+@media (max-width: 1028px){
+    .navbar{
+        width: 75%;
+    }
+}
+
+
 @media (max-width: 768px) {
     .navbar {
         width: 90%;
@@ -483,6 +492,15 @@ footer span {
 }
 
 @media (max-width: 480px) {
+
+    .navbar{
+        width: 100vw;
+    }
+
+    .navbar a{
+        font-size: 12px;
+    }
+
     .home {
         font-size: 1.5rem;
     }
@@ -504,6 +522,23 @@ footer span {
 
     .project-card {
         padding: 15px;
+    }
+
+    .project-links{
+        margin: 130px 40px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project-links a{
+        background-color: #2a2a2a;
+        padding: 10px;
+        border: 2px solid #4b4b4b;
+        border-radius: 8px;
+    }
+
+    #pl-1{
+        margin-top: 100px;
     }
 
     section h2 {
