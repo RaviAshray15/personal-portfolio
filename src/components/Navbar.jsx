@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Navbar.css';
 import download from '../images/download.png';
-import { FaFacebook, FaTwitter, FaGithub, FaCode, FaXRay, FaMailBulk, FaMailchimp, FaVoicemail, FaEnvelope } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaGithub, FaCode, FaEnvelope } from 'react-icons/fa';
 import resumePDF from '../images/Ravi_Ashray_s.pdf';
 
 
