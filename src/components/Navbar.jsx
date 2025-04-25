@@ -109,7 +109,7 @@ function Navbar() {
             <p>Portfolio website built with <span>React</span>, featuring smooth animations and a sleek design.</p>
             <div className="project-links">
               <a href='#home' onClick={() => window.scrollTo(0, 0)}>Live Link</a>
-              <a href="https://github.com/yourusername/livekit-ai-integration" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://github.com/RaviAshray15/personal-portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </div>
           <div className="project-card">
