@@ -495,10 +495,12 @@ footer span {
 
     .navbar{
         width: 100vw;
+        top: 10px;
     }
 
     .navbar a{
         font-size: 12px;
+        padding: 0 5px;
     }
 
     .home {
@@ -525,7 +527,7 @@ footer span {
     }
 
     .project-links{
-        margin: 130px 40px 0;
+        margin: 125px 40px 0;
         display: flex;
         justify-content: space-between;
     }
