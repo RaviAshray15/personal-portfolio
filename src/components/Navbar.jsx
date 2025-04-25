@@ -23,7 +23,7 @@ function Navbar() {
     <>
       <div className={`navbar ${isShrunk ? 'navbar-shrink' : ''}`} id="navbar">
         <div className="navbar-a">
-          <a className='logo' href='#' onClick={() => window.scrollTo(0, 0)}>Ravi Ashray.</a>
+          <a className='logo' href='#home' onClick={() => window.scrollTo(0, 0)}>Ravi Ashray.</a>
           <a href="#about">About Me</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
@@ -108,7 +108,7 @@ function Navbar() {
             <h3>Portfolio Website</h3>
             <p>Portfolio website built with <span>React</span>, featuring smooth animations and a sleek design.</p>
             <div className="project-links">
-              <a href='#' onClick={() => window.scrollTo(0, 0)}>Live Link</a>
+              <a href='#home' onClick={() => window.scrollTo(0, 0)}>Live Link</a>
               <a href="https://github.com/yourusername/livekit-ai-integration" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </div>
@@ -130,7 +130,7 @@ function Navbar() {
           <a href="https://github.com/RaviAshray15" target='_blank' rel="noreferrer"><FaGithub /></a>
           <a href="https://twitter.com/Raviashray" target='_blank' rel="noreferrer"><FaTwitter /></a>
           <a href="https://www.facebook.com/ashray.namuduru" target='_blank' rel="noreferrer"><FaFacebook /></a>
-          <a href="mailto:raviashray15@gmail.com" target='_blank' ><FaEnvelope /></a>
+          <a href="mailto:raviashray15@gmail.com" target='_blank' rel="noreferrer"><FaEnvelope /></a>
         </div>
       </section>
 
