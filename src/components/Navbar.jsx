@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Navbar.css';
 import download from '../images/download.png';
 import { FaFacebook, FaTwitter, FaGithub, FaEnvelope } from 'react-icons/fa';
-import resumePDF from '../images/Ravi_Ashray_s.pdf';
+import resumePDF from '../images/Ravi Ashray Resume.pdf';
 
 
 function Navbar() {
